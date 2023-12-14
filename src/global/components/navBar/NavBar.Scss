@@ -1,0 +1,43 @@
+.navBarContainer{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    justify-content: space-between;
+    padding: 20px 40px;
+    > img{
+        width: 30px;
+
+    }
+    > form{
+        flex:1;
+        display: flex;
+        align-items: center;
+        border:1px solid #ededed;
+        border-radius: 25px;
+        gap:1em;
+        padding:  10px 20px;
+        > input{
+            outline: none;
+            border: none;
+            flex: 1;
+            height: 100%;
+        }                      /*hiraachy form ky ander wlaa first element jo form ky ander cheezy ho gii uss pr apply ho gaa baki pr nh*/
+
+    }
+}
+.tabBarContainer{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    padding: 0 40px;
+    color: #767676;
+    >hr{
+    height: 25px;
+    width: 1px;
+    margin: 0;
+    background-color: #7d7c7c;
+    border: none;
+
+    }
+    
+}
